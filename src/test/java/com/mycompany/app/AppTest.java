@@ -16,8 +16,14 @@ public class AppTest
     
 
     @Test
-    public void jndi(){
-        App.log();
+    public void generalJNDI(){
+        System.out.println("Running JNDI test");
+        App.jndi();
+    }
+
+    @Test
+    public void log4j(){
+        App.log4j();
     }
 
 }
