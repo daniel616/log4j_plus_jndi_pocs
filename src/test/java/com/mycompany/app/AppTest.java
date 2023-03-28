@@ -23,6 +23,7 @@ public class AppTest
 
     @Test
     public void log4j(){
+        System.out.println("Running Log4j test")
         App.log4j();
     }
 
